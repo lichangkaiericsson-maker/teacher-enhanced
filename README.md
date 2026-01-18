@@ -2,6 +2,12 @@
 
 基于 Vue 3 + Vite 开发的现代化教师辅助工具，旨在提升备课与教学效率。
 
+[![GitHub Stars](https://img.shields.io/github/stars/tcshowhand/teacher)](https://github.com/tcshowhand/teacher/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/tcshowhand/teacher)](https://github.com/tcshowhand/teacher/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/tcshowhand/teacher)](https://github.com/tcshowhand/teacher/issues)
+[![GitHub Solved Issues](https://img.shields.io/github/issues-closed/tcshowhand/teacher)](https://github.com/tcshowhand/teacher/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/tcshowhand/teacher)](https://github.com/tcshowhand/teacher/commits/main)
+
 ## 🌟 核心功能
 
 - **智能教案生成 (AI Lesson Planning)**
