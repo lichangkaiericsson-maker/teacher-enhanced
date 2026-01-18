@@ -35,10 +35,10 @@
 
 ## 🛠 技术栈
 
-- **前端框架**：[Vue 3](https://vuejs.org/)
-- **构建工具**：[Vite](https://vitejs.dev/)
-- **状态管理**：[Pinia](https://pinia.vuejs.org/)
-- **路由管理**：[Vue Router](https://router.vuejs.org/)
+- **前端框架**：Vue 3
+- **构建工具**：Vite
+- **状态管理**：Pinia
+- **路由管理**：Vue Router
 - **文档处理**：docx, docxtemplater, jspdf, html2canvas
 - **网络请求**：Axios
 
