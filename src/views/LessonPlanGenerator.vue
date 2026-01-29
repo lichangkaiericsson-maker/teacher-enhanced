@@ -195,15 +195,7 @@ const handleAIUpdate = (newChapters) => {
 <template>
   <div class="generator-container">
     <div class="toolbar-top">
-      <div class="user-info" v-if="userStore.isLoggedIn">
-        <img :src="userStore.userInfo.Avatar" class="user-avatar" v-if="userStore.userInfo.Avatar" />
-        <span class="user-hello">{{ userStore.userInfo.StaticName || userStore.userInfo.Name || userStore.userInfo.username }}</span>
-        <button class="settings-btn logout-btn" @click="userStore.logout()">退出</button>
-      </div>
-      <button v-else class="settings-btn" @click="showLoginModal = true" style="background: #e8f8f5; border-color: #1abc9c; color: #16a085;">🔐 登录</button>
-      
-      <button class="settings-btn" @click="showServiceModal = true" style="background: #fff8e1; border-color: #f1c40f; color: #f39c12; margin-right: 10px;">➕ 定制模型</button>
-      <button class="settings-btn" @click="showSettings = true">⚙️ 设置 </button>
+     <button class="settings-btn" @click="showSettings = true">⚙️ 设置 </button>
     </div>
 
     <div class="hero-section">
