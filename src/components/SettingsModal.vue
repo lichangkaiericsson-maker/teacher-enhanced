@@ -96,7 +96,11 @@ const openAliyunLink = () => {
         <input v-model="settings.modelName" placeholder="qwen-turbo" class="modal-input" />
         <p class="tips">默认为 <code>qwen-turbo</code>，也可填 <code>qwen-plus</code> 等。</p>
       </div>
-
+      <div class="form-group">
+        <label>API 端点 URL</label>
+        <input v-model="settings.aliApiUrl" placeholder="https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions" class="modal-input" />
+        <p class="tips">支持 OpenAI 兼容的 API 端点。默认为阿里云通义千问，也可配置为其他模型服务。</p>
+      </div>
 
 
 
