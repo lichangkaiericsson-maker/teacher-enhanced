@@ -10,7 +10,6 @@
 
 ## 在线体验
 
-项目链接： [https://www.ytecn.com/teacher/](https://www.ytecn.com/teacher/)
 
 ## 🌟 核心功能
 
